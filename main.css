@@ -4,7 +4,11 @@ body {
 }
 
 h1 {
-  font-weight: normal;
+  font-weight: bold;
+  background-color: rgba(193, 227, 243, 0.5);
+  width: 90%;
+  text-align: center;
+  color: #e8e8e8;
 }
 
 #container {
@@ -15,6 +19,7 @@ h1 {
 
 #board{
   border-collapse: collapse;
+  background-image: url("./BoardBackground.JPG");
 }
 
 #board td{
@@ -24,7 +29,7 @@ h1 {
 }
 
 td.alive {
-  background-color: #8CC8DD;
+  background-color: #670000;
 }
 
 #control_panel {
@@ -37,14 +42,20 @@ td.alive {
   border-radius: 3px;
   font-size: 0.9em;
   text-align: center;
-  background-color: #2ba6cb;
+  background-color: red;
   color: #fefefe; 
 }
 
 .button:hover, .button:focus {
-  background-color: #258dad;
+  background-color: #670000;
 }
 
 .button:focus {
   outline: dashed 1px #2ba6cb;
+}
+
+body{
+  background-image: url(./Capture.PNG);
+  /* background-repeat: no-repeat;
+  background-repeat: ; */
 }
